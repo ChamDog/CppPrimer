@@ -8,7 +8,7 @@ int main()
     std::vector<std::string>StrVector;
     std::string s;
     std::cout << "input words(EOF to back):";
-    while ((std::cin >> s)&&s!="EOF") 
+    while ((std::cin >> s)&&s!="EOF") //换行/重新向流中输入ctrl Z + Enter即文件结束符
     {
         StrVector.push_back(s); 
     }
